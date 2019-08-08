@@ -1,16 +1,28 @@
-# my_business_card
+<h1 align="center">Welcome to My Business Card 👋</h1>
+<p>
+  <a href="https://twitter.com/iamsaqibs">
+    <img alt="Twitter: iamsaqibs" src="https://img.shields.io/twitter/follow/iamsaqibs.svg?style=social" target="_blank" />
+  </a>
+</p>
 
-A new Flutter project.
+> This my business card built with flutter.
 
-## Getting Started
+## Install
 
-This project is a starting point for a Flutter application.
+```sh
+none
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Author
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+👤 **Saqib S.**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Twitter: [@iamsaqibs](https://twitter.com/iamsaqibs)
+* Github: [@iamsaqibs](https://github.com/iamsaqibs)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
