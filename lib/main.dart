@@ -10,14 +10,17 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
             child: Row(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Container(
-                  height: 100,
-                  width: 100,
+                  height: double.infinity,
+                  // width: 100,
                   color: Colors.white,
                   child: Text('Container 1'),
                 ),
+                // SizedBox(
+                //   width: 20,
+                // ),
                 Container(
                   height: 100,
                   width: 100,
@@ -25,8 +28,8 @@ class MyApp extends StatelessWidget {
                   child: Text('Container 2'),
                 ),
                 Container(
-                  height: 100,
-                  width: 100,
+                  height: double.infinity,
+                  // width: 100,
                   child: Text('Container 3'),
                   color: Colors.blue,
                 ),
