@@ -9,33 +9,28 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            child: Column(
               children: <Widget>[
-                Container(
-                  height: double.infinity,
-                  // width: 100,
-                  color: Colors.white,
-                  child: Text('Container 1'),
+                CircleAvatar(
+                  radius: 50,
+                  backgroundColor: Colors.blue,
+                  backgroundImage: AssetImage('images/avatar.jpg'),
                 ),
-                // SizedBox(
-                //   width: 20,
-                // ),
-                Container(
-                  height: 100,
-                  width: 100,
-                  color: Colors.red,
-                  child: Text('Container 2'),
+                Text(
+                  'Saqib S.',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontWeight: FontWeight.bold,
+                    fontSize: 40,
+                    color: Colors.white,
+                  ),
                 ),
-                Container(
-                  height: double.infinity,
-                  // width: 100,
-                  child: Text('Container 3'),
-                  color: Colors.blue,
+                Text(
+                  'Web and Flutter Developer',
+                  style: TextStyle(
+//                    fontFamily: 'Pacifico'
+                  ),
                 ),
-                // Container(
-                //   width: double.infinity,
-                // )
               ],
             ),
           ),
