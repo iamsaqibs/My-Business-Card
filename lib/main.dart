@@ -12,6 +12,10 @@ class MyApp extends StatelessWidget {
             child: Column(
               // mainAxisSize: MainAxisSize.min,
               // verticalDirection: VerticalDirection.up,
+              // mainAxisAlignment: MainAxisAlignment.center,
+              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              // mainAxisAlignment: MainAxisAlignment.spaceAround,
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
                 Container(
                   height: 100,
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
                 ),
                 Container(
                   height: 100,
-                  width: 100,
+                  width: 300,
                   color: Colors.red,
                   child: Text('Container 2'),
                 ),
